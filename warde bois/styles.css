@@ -1,0 +1,188 @@
+styles.css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  /* Réinitialisation de la marge et du padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Style pour le corps de la page */
+body {
+	font-family: sans-serif;
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+/* Style pour l'en-tête de la page */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+/* Style pour la galerie d'images */
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery img {
+	width: 300px;
+	margin: 10px;
+}
+
+/* Style pour le pied de page de la page */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+body {
+    background-color: #F5DEB3;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 50px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  Dans la section body, ajoutez les images que vous souhaitez utiliser pour votre site web. Vous pouvez également ajouter le email et le contact en utilisant la balise a href, par exemple :
+  <body>
+    <img src="https://scontent.frba1-2.fna.fbcdn.net/v/t39.30808-6/337648207_142686008742137_7391132329043576480_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGcY4HaLd37r0zRTMJdNgkJhoUKeJX_o5KGhQp4lf-jkoW0KMSESk2LMzRF9m_0ziWjJM3fCoTDgEjZV296VkcK&_nc_ohc=4fE5d97arc8AX-fl0Wl&_nc_zt=23&_nc_ht=scontent.frba1-2.fna&oh=00_AfDN6KIADsCfwUlymPVXM_CvjxKcbG0pbA9ruaUGvxJzPA&oe=642569C3" alt="Image 1">
+    <img src="https://scontent.frba1-2.fna.fbcdn.net/v/t39.30808-6/337814538_787295176149027_7103509384368956280_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHYucr8j8o0hLgW9fBJkYwzdo7CzYpTTkZ2jsLNilNORhY4rJuOclstiRPNU1EswAQJUM1_EVArUyFmUcrOCt-t&_nc_ohc=Nv2Nxk0w_-IAX_2cddz&_nc_zt=23&_nc_ht=scontent.frba1-2.fna&oh=00_AfBnF0Fp6WUijLWkkTQI5HzTYW0i0sGIcSXmRxxIfqa-mQ&oe=6426A690" alt="Image 2">
+    <img src="https://scontent.frba1-2.fna.fbcdn.net/v/t39.30808-6/337526496_1446014082805444_3374028632309568373_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEpvIbgJOmw9I3nbQGPCdU9mGq_UlI-C_iYar9SUj4L-IVRUdEyZ-lxc_AsNXiJ
+     /* styles pour le corps */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  /* styles pour les sections */
+  section {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  /* styles pour les images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  /* styles pour le footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  /* styles pour les liens */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #666;
+  }
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Ward Bois</h1>
+    </header>
+    <div class="container">
+      <div class="content">
+        <p>Bienvenue chez Ward Bois Votre destination pour des meubles en bois de qualité supérieure. Nous sommes des créateurs passionnés qui fabriquent des pièces uniques pour compléter votre intérieur. Tous nos meubles sont fabriqués à la main avec des matériaux de la plus haute qualité, ce qui leur confère un aspect naturel et durable. Nous sommes fiers de proposer une gamme de mobilier en bois sur mesure pour répondre à tous vos besoins et à toutes vos exigences.
